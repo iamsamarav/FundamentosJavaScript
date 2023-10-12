@@ -26,3 +26,13 @@ console.log(numberArray)
 
 const alura = "Alura"
 console.log = (alura * numberFloatFirst)
+
+//Operations Math
+
+function numbeRandom (min, max) { 
+    return Math.random() * (max-min) + min;
+}
+
+const result = numbeRandom(firstNumber, secondNumber);
+
+console.log(firstNumber)
