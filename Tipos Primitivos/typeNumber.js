@@ -14,6 +14,7 @@ const mathematicalOperation = [mathematicalOperationFirst, mathematicalOperation
 
 mathematicalOperation.map((data) => console.log(data))
 
+
 //Example type Number Float
 
 const numberFloatFirst = 0.5;
@@ -25,9 +26,9 @@ console.log(numberArray)
 //Example NaN
 
 const alura = "Alura"
-console.log = (alura * numberFloatFirst)
+console.log(alura * firstNumber)
 
-//Operations Math
+// Operations Math
 
 function numbeRandom (min, max) { 
     return Math.random() * (max-min) + min;
@@ -35,4 +36,4 @@ function numbeRandom (min, max) {
 
 const result = numbeRandom(firstNumber, secondNumber);
 
-console.log(firstNumber)
+console.log(firstNumber);
